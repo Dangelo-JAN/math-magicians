@@ -1,9 +1,10 @@
+import Calculator from './components/calculator';
 import './App.css';
 
 function App() {
   return (
     <div>
-      <h1>Hello Microvers!</h1>
+      <Calculator />
     </div>
   );
 }

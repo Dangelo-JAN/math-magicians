@@ -1,0 +1,29 @@
+.g-container {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  min-height: 80vh;
+  grid-template-columns: repeat(4, 6em);
+  grid-template-rows: repeat(6, 4em);
+}
+
+.op-container {
+  grid-column: 1 / 5;
+  background-color: #6b6c83;
+}
+
+.output {
+  text-align: end;
+}
+
+.g-container > button {
+  border: 1px solid #c8c0b9;
+}
+
+.operation {
+  background-color: #ff7101;
+}
+
+.button-zero {
+  grid-column: 1 / 3;
+}
