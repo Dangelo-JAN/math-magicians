@@ -1,14 +1,14 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import './navbar.css';
 
 const Navbar = () => (
   <nav>
     <ul>
       <li id="logo"><Link className="links" to="/">Math Magicians</Link></li>
-      <li><Link className="links" to="/quote">Quote</Link></li>
-      <li><Link className="links" to="/calculator">Calculator</Link></li>
-      <li><Link className="links" to="/">Home</Link></li>
+      <li><NavLink className="links" activeClassName="active-link" to="/quote" exact>Quote</NavLink></li>
+      <li><NavLink className="links" activeClassName="active-link" to="/calculator" exact>Calculator</NavLink></li>
+      <li><NavLink className="links" activeClassName="active-link" to="/" exact>Home</NavLink></li>
     </ul>
   </nav>
 );

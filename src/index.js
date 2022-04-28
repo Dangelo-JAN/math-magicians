@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { Route, BrowserRouter, Switch } from 'react-router-dom';
 import Navbar from './components/navbar';
+import Home from './pages/home';
 import Calculator from './components/calculator';
 import './index.css';
 
@@ -10,13 +11,14 @@ root.render(
   <React.StrictMode>
     <BrowserRouter>
       <Navbar />
-      <Route path="/calculator">
-        <Calculator />
-      </Route>
+      <Switch>
+        <Route exact path="/">
+          <Home />
+        </Route>
+        <Route path="/calculator">
+          <Calculator />
+        </Route>
+      </Switch>
     </BrowserRouter>
   </React.StrictMode>,
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
