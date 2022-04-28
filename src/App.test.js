@@ -1,17 +1,17 @@
-import { render, screen } from '@testing-library/react';
+// import { render, screen } from '@iting-library/react';
 // import App from './App';
 
-// test('renders learn react link', () => {
+// it('renders learn react link', () => {
 //   render(<App />);
 //   const linkElement = screen.getByText(/learn react/i);
 //   expect(linkElement).toBeInTheDocument();
 // });
 
 import Operate from './logic/operate.js';
-import Calculate from './logic/calculate.js';
+import Calculate from './logic/Calculate.js';
 
-describe('My Components logic test', () => {
-  describe('Operate test', () => {
+describe('My Components logic it', () => {
+  describe('Operate it', () => {
     it('Sum test', () => {
       expect(Operate(1, 1, '+')).toBe('2');
     });
@@ -27,9 +27,9 @@ describe('My Components logic test', () => {
     it('Devide test', () => {
       expect(Operate(1, 1, '÷')).toBe('1');
     });
+
+    it('Residual test', () => {
+      expect(Operate(1, 1, '%')).toBe('0');
+    });
   });
-
-  // it('Calculate test', () => {
-
-  // });
 });
