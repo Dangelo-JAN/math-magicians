@@ -18,29 +18,34 @@ const Calculator = () => {
   };
 
   return (
-    <div className="g-container">
-      <div className="op-container">
-        <div className="output" id="output">0</div>
+    <div className="container">
+      <div className="title">
+        Let&apos;s do some math!
       </div>
-      <button onClick={onClickHandler} type="button" value="AC"> AC </button>
-      <button onClick={onClickHandler} type="button" value="+/-"> +/- </button>
-      <button onClick={onClickHandler} type="button" value="%"> % </button>
-      <button onClick={onClickHandler} type="button" value="÷" className="operation"> / </button>
-      <button onClick={onClickHandler} type="button" value="9"> 9 </button>
-      <button onClick={onClickHandler} type="button" value="8"> 8 </button>
-      <button onClick={onClickHandler} type="button" value="7"> 7 </button>
-      <button onClick={onClickHandler} type="button" value="x" className="operation"> * </button>
-      <button onClick={onClickHandler} type="button" value="6"> 6 </button>
-      <button onClick={onClickHandler} type="button" value="5"> 5 </button>
-      <button onClick={onClickHandler} type="button" value="4"> 4 </button>
-      <button onClick={onClickHandler} type="button" value="-" className="operation"> - </button>
-      <button onClick={onClickHandler} type="button" value="3"> 3 </button>
-      <button onClick={onClickHandler} type="button" value="2"> 2 </button>
-      <button onClick={onClickHandler} type="button" value="1"> 1 </button>
-      <button onClick={onClickHandler} type="button" value="+" className="operation"> + </button>
-      <button onClick={onClickHandler} type="button" value="0" className="button-zero"> 0 </button>
-      <button onClick={onClickHandler} type="button" value="."> . </button>
-      <button onClick={onClickHandler} type="button" value="=" className="operation"> = </button>
+      <div className="g-container">
+        <div className="op-container">
+          <div className="output" id="output">0</div>
+        </div>
+        <button onClick={onClickHandler} type="button" value="AC"> AC </button>
+        <button onClick={onClickHandler} type="button" value="+/-"> +/- </button>
+        <button onClick={onClickHandler} type="button" value="%"> % </button>
+        <button onClick={onClickHandler} type="button" value="÷" className="operation"> / </button>
+        <button onClick={onClickHandler} type="button" value="9"> 9 </button>
+        <button onClick={onClickHandler} type="button" value="8"> 8 </button>
+        <button onClick={onClickHandler} type="button" value="7"> 7 </button>
+        <button onClick={onClickHandler} type="button" value="x" className="operation"> * </button>
+        <button onClick={onClickHandler} type="button" value="6"> 6 </button>
+        <button onClick={onClickHandler} type="button" value="5"> 5 </button>
+        <button onClick={onClickHandler} type="button" value="4"> 4 </button>
+        <button onClick={onClickHandler} type="button" value="-" className="operation"> - </button>
+        <button onClick={onClickHandler} type="button" value="3"> 3 </button>
+        <button onClick={onClickHandler} type="button" value="2"> 2 </button>
+        <button onClick={onClickHandler} type="button" value="1"> 1 </button>
+        <button onClick={onClickHandler} type="button" value="+" className="operation"> + </button>
+        <button onClick={onClickHandler} type="button" value="0" className="button-zero"> 0 </button>
+        <button onClick={onClickHandler} type="button" value="."> . </button>
+        <button onClick={onClickHandler} type="button" value="=" className="operation"> = </button>
+      </div>
     </div>
   );
 };
