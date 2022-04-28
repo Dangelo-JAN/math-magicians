@@ -1,5 +1,5 @@
 import Operate from './logic/operate';
-import Calculate from './logic/Calculate.js';
+import Calculate from './logic/calculate';
 
 describe('My Components logic it', () => {
   describe('Operate it', () => {
