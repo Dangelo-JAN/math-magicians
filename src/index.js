@@ -1,12 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import { Route, BrowserRouter, Switch } from 'react-router-dom';
+import Calculator from './components/calculator';
 import './index.css';
-import App from './App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter>
+      <Route path="/calculator">
+        <Calculator />
+      </Route>
+    </BrowserRouter>
   </React.StrictMode>,
 );
 
