@@ -1,25 +1,55 @@
-import renderer from 'react-test-renderer';
 import React from 'react';
-import ReactDom from 'react-dom';
-import { BrowserRouter } from 'react-router-dom';
+// import ReactDom from 'react-dom';
+// import { BrowserRouter } from 'react-router-dom';
 import { render, screen } from '@testing-library/react';
 import '@testing-library/jest-dom';
 import Calculator from '../components/calculator';
-import Navbar from '../components/navbar';
+// import Navbar from '../components/navbar';
 
 describe('Components test', () => {
-  const navTest = () => {
-    <BrowserRouter>
-      <Navbar />
-    </BrowserRouter>;
-  };
-  
-  it('Render NavLinks', () => {
-    const tree = renderer
-      .create(<navTest />)
-      .toJSON();
-    expect(tree).toMatchSnapshot();
-  });
+//   describe('Navbar test', () => {
+//     it('has a logo link', () => {
+//       const div = document.createElement('div');
+
+  //       const div = ReactDOM.createElement('div');
+  //     root.render(
+  //   <React.StrictMode>
+  //     <BrowserRouter>
+  //       <Container />
+  //     </BrowserRouter>
+  //   </React.StrictMode>,
+  // );
+
+  //       ReactDom.render(
+  //         <BrowserRouter>
+  //           <Navbar />
+  //         </BrowserRouter>,
+  //         div,
+  //       );
+
+  //       ReactDom.unmountComponentAtNode(div);
+
+  //       const element = document.getElementById('logo');
+  //       expect(element).toBeInTheDocument();
+  //     });
+  //     //   it('has Home link', () => {
+  //     render(<Navbar />);
+  //     const element = document.getElementById(/home-link/i);
+  //     expect(element).toBeInTheDocument();
+  //   });
+
+  //   it('has Calculator link', () => {
+  //     render(<Navbar />);
+  //     const element = document.getElementById(/calculator-link/i);
+  //     expect(element).toBeInTheDocument();
+  //   });
+
+  //   it('has Quote link', () => {
+  //     render(<Navbar />);
+  //     const element = document.getElementById(/Quote-link/i);
+  //     expect(element).toBeInTheDocument();
+  //   });
+  // });
 
   describe('Calculator test', () => {
     it('has Text element', () => {
