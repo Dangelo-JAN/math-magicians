@@ -29,7 +29,7 @@ Run the following comands on your terminal:
 ### Run tests
 
 Run the following comands on your terminal:
-- `npm start`
+- `npm test`
 
 ## Authors
 
