@@ -11,20 +11,20 @@ import './index.css';
 
 ReactDOM.render(
   <React.StrictMode>
-     <BrowserRouter>
-       <Navbar />
-       <Switch>
-         <Route exact path="/">
-           <Home />
-         </Route>
-         <Route path="/calculator">
-           <Calculator />
-         </Route>
-         <Route path="/quote">
-           <Quote />
-         </Route>
-       </Switch>
-     </BrowserRouter>  
+    <BrowserRouter>
+      <Navbar />
+      <Switch>
+        <Route exact path="/">
+          <Home />
+        </Route>
+        <Route path="/calculator">
+          <Calculator />
+        </Route>
+        <Route path="/quote">
+          <Quote />
+        </Route>
+      </Switch>
+    </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root'),
 );
