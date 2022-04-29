@@ -12,7 +12,9 @@ import './index.css';
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
-      <Navbar />
+      <Route>
+      <Navbar path="*"/>
+      </Route>
       <Switch>
         <Route exact path="/">
           <Home />

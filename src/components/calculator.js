@@ -5,11 +5,11 @@ import './calculator.css';
 // eslint-disable-next-line react/prefer-stateless-function
 const Calculator = () => {
   const [objCalculator, setObjCalculator] = useState({ total: null, next: null, operation: null });
+  const displayTotal = document.getElementById('output');
 
   const onClickHandler = (e) => {
     const newState = calculate(objCalculator, e.target.value);
     setObjCalculator(newState);
-    const displayTotal = document.getElementById('output');
     if (newState.next !== null) {
       displayTotal.innerText = newState.next;
     } else {
