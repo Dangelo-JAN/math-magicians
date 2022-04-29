@@ -21,3 +21,14 @@ li {
   font-weight: bold;
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.active-link {
+  color: orangered;
+  text-decoration: underline;
+}
+
+.m-link {
+  border-left: solid 2px;
+  border-right: solid 2px;
+  padding: 0 1em;
+}

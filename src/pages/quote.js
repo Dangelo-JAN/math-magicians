@@ -1,4 +1,5 @@
 import React from 'react';
+import './quote.css';
 
 const Quote = () => (
   <div className="quote">
