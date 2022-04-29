@@ -9,11 +9,12 @@ import Calculator from './components/calculator';
 
 import './index.css';
 
-ReactDOM.render(
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
   <React.StrictMode>
     <BrowserRouter>
       <Route>
-      <Navbar path="*"/>
+        <Navbar path="*" />
       </Route>
       <Switch>
         <Route exact path="/">
@@ -28,5 +29,4 @@ ReactDOM.render(
       </Switch>
     </BrowserRouter>
   </React.StrictMode>,
-  document.getElementById('root'),
 );

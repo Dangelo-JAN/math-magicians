@@ -1,0 +1,190 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Snapshots Render Calculator 1`] = `
+<div
+  className="container"
+>
+  <div
+    className="title"
+  >
+    Let's do some math!
+  </div>
+  <div
+    className="g-container"
+  >
+    <div
+      className="op-container"
+    >
+      <div
+        className="output"
+        id="output"
+      >
+        0
+      </div>
+    </div>
+    <button
+      onClick={[Function]}
+      type="button"
+      value="AC"
+    >
+       AC 
+    </button>
+    <button
+      onClick={[Function]}
+      type="button"
+      value="+/-"
+    >
+       +/- 
+    </button>
+    <button
+      onClick={[Function]}
+      type="button"
+      value="%"
+    >
+       % 
+    </button>
+    <button
+      className="operation"
+      onClick={[Function]}
+      type="button"
+      value="÷"
+    >
+       / 
+    </button>
+    <button
+      onClick={[Function]}
+      type="button"
+      value="9"
+    >
+       9 
+    </button>
+    <button
+      onClick={[Function]}
+      type="button"
+      value="8"
+    >
+       8 
+    </button>
+    <button
+      onClick={[Function]}
+      type="button"
+      value="7"
+    >
+       7 
+    </button>
+    <button
+      className="operation"
+      onClick={[Function]}
+      type="button"
+      value="x"
+    >
+       * 
+    </button>
+    <button
+      onClick={[Function]}
+      type="button"
+      value="6"
+    >
+       6 
+    </button>
+    <button
+      onClick={[Function]}
+      type="button"
+      value="5"
+    >
+       5 
+    </button>
+    <button
+      onClick={[Function]}
+      type="button"
+      value="4"
+    >
+       4 
+    </button>
+    <button
+      className="operation"
+      onClick={[Function]}
+      type="button"
+      value="-"
+    >
+       - 
+    </button>
+    <button
+      onClick={[Function]}
+      type="button"
+      value="3"
+    >
+       3 
+    </button>
+    <button
+      onClick={[Function]}
+      type="button"
+      value="2"
+    >
+       2 
+    </button>
+    <button
+      onClick={[Function]}
+      type="button"
+      value="1"
+    >
+       1 
+    </button>
+    <button
+      className="operation"
+      onClick={[Function]}
+      type="button"
+      value="+"
+    >
+       + 
+    </button>
+    <button
+      className="button-zero"
+      onClick={[Function]}
+      type="button"
+      value="0"
+    >
+       0 
+    </button>
+    <button
+      onClick={[Function]}
+      type="button"
+      value="."
+    >
+       . 
+    </button>
+    <button
+      className="operation"
+      onClick={[Function]}
+      type="button"
+      value="="
+    >
+       = 
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Snapshots Render Home 1`] = `
+<div
+  className="home"
+>
+  <h1>
+    Welcome to our page
+  </h1>
+  <p>
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus, quaerat dolorum dolor culpa recusandae quam quibusdam quia reprehenderit eos voluptate! Labore minima culpa fuga dolor provident eum reprehenderit iste facere!
+    <br />
+    <br />
+    Voluptatibus, quaerat dolorum dolor culpa recusandae quam quibusdam quia reprehenderit eos voluptate! Labore minima culpa fuga dolor provident eum reprehenderit iste facere!
+  </p>
+</div>
+`;
+
+exports[`Snapshots Render Qoute 1`] = `
+<div
+  className="quote"
+>
+  As far as the laws of mathematics refer to reality, they are not certain, and as far as they are certain, they do not refer to reality. — Albert Einstein
+</div>
+`;
